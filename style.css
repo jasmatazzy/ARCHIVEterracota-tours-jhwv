@@ -6,4 +6,10 @@
     font-family: sans-serif;
 }
 
+.awards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
