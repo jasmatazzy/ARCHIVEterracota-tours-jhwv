@@ -6,6 +6,9 @@
     font-family: sans-serif;
 }
 
+.container{
+    display: flex;
+}
 .awards{
     display: flex;
     justify-content: space-around;
