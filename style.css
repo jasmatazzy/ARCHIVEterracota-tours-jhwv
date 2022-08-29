@@ -1,4 +1,12 @@
 /* Link to figma file: https://www.figma.com/file/gFvnvDiGBaE1pF85Kyswaj/Wireframe-%7C-Terracotta-Tours-(v1)?node-id=0%3A1 */
+
+@import url(//db.onlinewebfonts.com/c/c3264a2601f855aef183e1892c5504db?family=Sacramento);
+
+@font-face {
+    font-family: "Sacramento";
+    src: url("//db.onlinewebfonts.com/t/c3264a2601f855aef183e1892c5504db.eot");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +15,7 @@
 }
 
 h1, h2{
-    margin: 50px 0 50px 120px;
+    margin: 50px 0 50px 50px;
 }
 
 .container{
@@ -48,3 +56,42 @@ h1, h2{
     text-align: center;
 }
 
+.booking{
+    background-color: #F7B180;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.booking button{
+    padding: 10px 30px;
+    margin: 50px 40px;
+    height: 50px;
+}
+
+.booking p{
+    font-family: 'Sacramento';
+    font-size: 80px;
+    /* width: 50%; */
+    margin-right:800px;
+}
+
+hr{
+    margin: 200px 50px 100px 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    height: 30px;
+    width: auto;
+}
+
+footer p{
+    display: block;
+}
