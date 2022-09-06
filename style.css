@@ -22,7 +22,8 @@
 .container{
     display: flex;
     flex-direction: column;
-   
+    max-width: 75rem;
+    margin: 0 auto;
 }
 
 
@@ -135,10 +136,22 @@
     padding: .5rem 1rem;    
 }
 
-@media (max-width: 53rem) {
+.featured {
+    display: flex;
+    background-color: #F7B180;
+    padding: 5rem 5rem 7rem 5rem;
+    align-items: center;
+    gap: 2rem;
+}
 
- }
+.featured-body {
+    display: flex;
+    flex-direction: column;
+}
 
+.featured img {
+    max-width: 46rem;
+}
 
 .awards{
     display: flex;
