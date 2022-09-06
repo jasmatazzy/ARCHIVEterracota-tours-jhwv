@@ -161,14 +161,19 @@
 
 .awards{
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    border: dashed  black;
+    justify-content: space-around;
 }
 
 .awards img{
     height: 250px;
     max-width: auto;
+    padding: 1rem 2rem;
+}
+
+#winner {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
 }
 
 .trip-cards{
@@ -238,23 +243,28 @@
 }
 
 hr{
-    margin: 200px 50px 100px 50px;
+    margin: 10rem 4rem 5rem 4rem;
 }
 
-footer{
+.footer{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-footer img{
-    height: 30px;
-    width: auto;
+.social-tags img{
+    height: 3rem;
+    width: 3rem;
+    margin: 0 3rem;
+}    
+
+.social-tags {
+    display: flex;
+    padding: 2rem 4rem;
 }
 
-footer p{
-    display: block;
-}
+
 
 
 
@@ -289,6 +299,12 @@ footer p{
         font-size: 2rem;
     }
 
+    .awards {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .trip-cards {
         flex-direction: column;
         padding: 1rem 1rem;
@@ -298,6 +314,26 @@ footer p{
         
         width: 100%;
         
+    }
+
+    .booking {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    .booking p {
+        font-size: 3rem;
+        padding-left: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .social-tags img {
+        margin: 0 1rem;
     }
 }
 
