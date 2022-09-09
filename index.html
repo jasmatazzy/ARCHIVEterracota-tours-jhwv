@@ -11,21 +11,54 @@
   <title>Terracotta Tours</title>
 </head>
 <body>
-
-  <!-- William nav -->
-  <div class="container">
+<div class="container">
+ <!-- William nav -->
+  <div class="navbar">
     <section class="nav">
-      NAVBAR buttons
+      <div class="logo-title">
+        <img class="img-logo" src="/assets/logo.png">
+        <h2>Terracotta Tours</h2>
+      </div>
+      <div class="nav-links">
+        <a href="#">Adventures</a>
+        <a href="#">Trip Information</a>
+        <button class="contact">Contact Us</button>
+        <button class="book">BOOK NOW</button>
+      </div>
+      <div class="menu">
+        <div class="bar1">&#9776;</div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </section>
+  </div>  
 
-    <!-- Willaim banner (hero) -->
+  <!-- Willaim banner (hero) -->
     <section class="banner">
-      BANNER/ Hero image, text and buttons
+      <div class="centered">
+        <h1>Your Canyon Adventure Awaits</h1>
+        <button>BOOK YOUR TRIP</button>
+      </div>
     </section>
 
-    <!-- William main --> 
-    <section class="main">
-      Main text Main text Main text Main text Main text Main text Main text Main text Main text Main text Main text 
+  <!-- William main --> 
+      <div class="main">
+        <h1>Terracotta Canyon Adventure Tours</h1>
+        <h3>AWARD WINNING ADVENTURE TRAVEL</h3>
+        <div>
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tincidunt nunc pulvinar sapien et ligula. Augue neque gravida in fermentum. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lectus nulla at volutpat diam. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Bibendum est ultricies integer quis auctor elit sed. Neque laoreet suspendisse interdum consectetur libero id. Tincidunt lobortis feugiat vivamus at. Tempor orci dapibus ultrices in iaculis nunc sed. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. </p>
+          <p>Ultricies lacus sed turpis tincidunt. Lectus sit amet est placerat in egestas erat imperdiet. Sed cras ornare arcu dui vivamus arcu. Vulputate odio ut enim blandit volutpat. Duis convallis convallis tellus id interdum. In hac habitasse platea dictumst quisque sagittis. Sed vulputate mi sit amet mauris commodo. Duis convallis convallis tellus id interdum velit laoreet. Sit amet commodo nulla facilisi nullam vehicula ipsum.</p>
+        </div>
+        <button class="learn">Learn More</button>  
+      </div>
+
+    <!-- William featured content -->
+    <section class="featured">
+       <img src="/assets/featured_adventure.jpg">
+        <div class="featured-body">
+          <h3>FEATURED ADVENTURE:</h3>
+          <P>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</P>
+        </div>      
     </section>
 
     <!-- Jas awards: three simple img files; space around for desktop size and maybe space between for tablet. inline for mobile  -->
@@ -35,54 +68,64 @@
       <img src="./assets/travel_award_3.png" alt="Travel & Leisure Awards Winner" id="winner">
     </section>
 
-    <!-- William featured content -->
-    <section class="featured">
-      FEATURED CONTENT FEATURED CONTENT FEATURED CONTENT FEATURED CONTENT 
-    </section>
-
     <!-- Jas trip cards: H2 header, p summary, three cards each containing an image, a mini header, and a p -->
-    <h1 style="text-decoration: strong;">Most Popular Trips</h1>
-      <h2>
-        Adventures for everyone, from the novice to the experience explorer! Join the guided tour that works best for you!
-      </h2>
+
     <section class="trip-cards">
+      <div class="trip-title">
+        <h1>Most Popular Trips</h1>
+          <h3>
+            Adventures for everyone, from the novice to the experience explorer! Join the guided tour that works best for you!
+          </h3>
+      </div>
+
       <div class="card">
         <img src="/assets/adventure_card_1.jpg" alt="1st adventure, sunset">
-        <h3>Sed ut perspiciatis</h3>
-        <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-        </p>
+        <div class="card-info">
+          <h3>Sed ut perspiciatis</h3>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+          </p>
+        </div>  
       </div>
+
       <div class="card">
         <img src="/assets/adventure_card_2.jpg" alt="2nd adventure, mountains">
-        <h3>Lorem ipsum dolor</h3>
-        <p>
-          Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-        </p>
+        <div class="card-info">
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </p>
+        </div>
       </div>
+
       <div class="card">
         <img src="/assets/adventure_card_3.jpg" alt="3rd adventure, cave">
-        <h3>Nemo enim ipsam</h3>
-        <p>
-          Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-        </p>
+        <div class="card-info">
+          <h3>Nemo enim ipsam</h3>
+          <p>
+            Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Jas booking: background #F7B180 sacramento font (cursive) book now and contact us button should exactly match William's from the header -->
     <section class="booking">
       <p>Ready to go?</p>
-      <button>BOOK NOW</button>
-      <button>Contact Us</button>
+      <button class="book">BOOK NOW</button>
+      <button class="contact">Contact Us</button>
     </section>
     <!-- Jas footer divide line doesn't extend to border on desktop, and even less so in tablet— disappears altogether for mobile; same img file of facebook, instragram and tripadvisor, with  a mini  terracotta tours copy right centered beneath images-->
     <hr>
-    <footer>
-      <img src="/assets/social_1.png" alt="facebook">
-      <img src="/assets/social_2.png" alt="instragram">
-      <img src="/assets/social_3.png" alt="tripadvisor">
-    </footer>
-    <p>&#169 Terracotta Tours</p>
+    <div class="footer">
+      <div class="social-tags">
+        <img src="/assets/social_1.png" alt="facebook">
+        <img src="/assets/social_2.png" alt="instragram">
+        <img src="/assets/social_3.png" alt="tripadvisor">
+      </div>
+      <p>&#169 Terracotta Tours</p>
+    </div>  
   </div>
+</div>
 </body>
 </html>
